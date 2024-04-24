@@ -15,10 +15,10 @@ Klasy:
 - Board {
   pola:
   char board[15][15]
-  func premia(x,y)
 
   metody:
   checkMove(Move &)
+  int makeMove(Move &) -> score
 }
 - Tile {
   char znak
