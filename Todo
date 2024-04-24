@@ -1,0 +1,30 @@
+Klasy:
+
+- Game {
+  pola:
+  bool turn
+  int score[2]
+  Board board
+  
+  metody:
+  void Game()
+  bool makeMove(Move &)
+}
+- Player
+- Move
+- Board {
+  pola:
+  char board[15][15]
+  func premia(x,y)
+
+  metody:
+  checkMove(Move &)
+}
+- Tile {
+  char znak
+  bool isTaken
+  int bonus
+}
+- Bag {
+  char characters
+}
